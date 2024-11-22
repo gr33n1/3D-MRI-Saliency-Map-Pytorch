@@ -1,12 +1,12 @@
 # 3D-MRI-Saliency-Map-Pytorch
-##This repository contains the code relative to the paper "Deep learning Modeling of Structural Brain MRI in Chronic Head and Neck Pain Following Mild TBI".
-####[paper link] 
+## This repository contains the code relative to the paper "Deep learning Modeling of Structural Brain MRI in Chronic Head and Neck Pain Following Mild TBI".
+#### [paper link] 
 
-###Please cite the paper when referring to this repository.
+### Please cite the paper when referring to this repository.
 
-####[citation]
+#### [citation]
 
-###About
+### About
 The Model presented is an example with random weights.
 Please use your own model architecture and weights.
 
@@ -26,5 +26,5 @@ https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.spm.prep
 
 Image current input size for saliency_map.py (1, 30, 95, 79) (batch, num_slices, height, width)
 
-###Run
- > python saliency_map.py
+### Run
+    python saliency_map.py
